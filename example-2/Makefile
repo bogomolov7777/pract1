@@ -6,7 +6,7 @@ RELEASE_FLAGS = -O2 -Wall -DNDEBUG
 DEBUG_FLAGS   = -g -O0 -Wall
 RELEASE_EXEC  = hello
 DEBUG_EXEC    = hello-dbg
-#SOURCE        =
+#SOURCE        = hello.cpp #добавил переменную для имени файла с исходным кодом
 
 all: debug release
 
